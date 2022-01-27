@@ -1,0 +1,61 @@
+.row{
+    display: flex;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 5px auto;
+    background-color: #bdbbbb;
+}
+
+.completed{
+    color: #6e6d6d;
+    text-decoration: line-through;
+}
+.completed .total{
+    color: #6e6d6d;
+}
+
+div{
+    padding: 5px 0;
+}
+
+.title{
+    display: flex;
+    width: 50%;
+    padding: 0 5px;
+}
+
+.price{
+    width: 15%;
+    padding: 0 5px;
+}
+
+.quantity{
+    width: 10%;
+    padding: 0 5px;
+}
+
+.total{
+    width: 15%;
+    font-weight: bolder;
+    color: green;
+    padding: 0 5px;
+}
+
+.actions{
+    width: 10%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 5px;
+}
+.actions button{
+    padding: 5px 10px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+}
+.actions button:hover {
+    background-color: #8f0101;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
